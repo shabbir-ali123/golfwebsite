@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
 
-const LiveScoringTable: FunctionComponent = () => {
+const LeaderBoardScoringTab: FunctionComponent = () => {
   return (
-    <div className="absolute top-[4546px] left-[150px] w-[1302px] h-[787px] text-left text-lg text-gray1-100 font-poppins">
+    <div className="absolute top-[4546px] left-[220px] w-[1302px] h-[787px] text-left text-lg text-gray1-100 font-poppins">
       <div className="absolute top-[227px] left-[0px] w-[1302px] h-[560px]">
         <div className="absolute top-[0px] left-[0px] w-[1302px] h-[560px]">
           <div className="absolute top-[0px] left-[0px] w-[1302px] h-[560px]">
@@ -576,4 +576,4 @@ const LiveScoringTable: FunctionComponent = () => {
   );
 };
 
-export default LiveScoringTable;
+export default LeaderBoardScoringTab;

@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 const IndiviualPlayerScore: FunctionComponent = () => {
   return (
-    <div className="absolute top-[1983px] left-[165px] w-[1350px] h-[920px] text-left text-lg text-white font-poppins">
+    <div className="absolute top-[1983px] left-[220px] w-[1350px] h-[920px] text-left text-lg text-white font-poppins">
       <div className="absolute top-[0px] left-[0px] w-[1350px] h-[363.6px] text-21xl text-darkslateblue-300">
         <div className="absolute top-[0px] left-[0px] w-[1350px] h-[329px]">
           <div className="absolute top-[0px] left-[0px] w-[590px] h-[147.5px]">
@@ -187,7 +187,7 @@ const IndiviualPlayerScore: FunctionComponent = () => {
             </div>
             <div className="absolute top-[0px] left-[0px] w-[22px] h-5 text-seagreen-100">
               <div className="absolute top-[0px] left-[12px] leading-[20px]">
-                2
+        
               </div>
               <img
                 className="absolute h-[56.5%] w-[45.45%] top-[20%] right-[59.09%] bottom-[23.5%] left-[-4.55%] max-w-full overflow-hidden max-h-full"

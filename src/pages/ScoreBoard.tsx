@@ -1,17 +1,18 @@
 import { FunctionComponent } from "react";
-import DateFilterContainer from "../components/ChampionShipName";
+import ChampionShipName from "../components/ChampionShipName";
 import Slider from "../components/Slider";
 import LeaderBoardSection from "../components/LeaderBoardSection";
-import ContainerFrame1 from "../components/LeaderBoardEightRow";
-import ContainerFrame2 from "../components/LeaderBoardSixRow";
-import PlayerCardForm from "../components/LeaderBoardHeader";
-import ContainerFrame from "../components/LeaderBoardFirstRow";
-import ContainerSection from "../components/LeaderBoardSecondRow";
-import ContainerBox from "../components/LeaderBoardThirdRow";
-import ContainerWrapper from "../components/LeaderBoardFourRow";
-import ContainerGroup from "../components/LeaderBoardFiveRow";
-import SectionCard from "../components/LiveScoringTable";
-import GroupComponent7 from "../components/IndiviualPlayerScore";
+import LeaderBoardEightRow from "../components/LeaderBoardEightRow";
+import LeaderBoardSixRow from "../components/LeaderBoardSixRow";
+import LeaderBoardHeader from "../components/LeaderBoardHeader";
+import LeaderBoardFirstRow from "../components/LeaderBoardFirstRow";
+import LeaderBoardSecondRow from "../components/LeaderBoardSecondRow";
+import LeaderBoardThirdRow from "../components/LeaderBoardThirdRow";
+import LeaderBoardFourRow from "../components/LeaderBoardFourRow";
+import LeaderBoardFiveRow from "../components/LeaderBoardFiveRow";
+import LeaderBoardScoringTab from "../components/LeaderBoardScoringTab";
+import IndiviualPlayerScore from "../components/IndiviualPlayerScore";
+
 
 const ScoreBoard: FunctionComponent = () => {
   return (
@@ -22,9 +23,7 @@ const ScoreBoard: FunctionComponent = () => {
         alt=""
         src="/img/group-1000008788.svg"
       />
-    
-     
-      <DateFilterContainer />
+      <ChampionShipName />
       <Slider />
       <div className="absolute top-[848px] left-[calc(50%_-_675px)] w-[1350px] h-[1095px]">
      
@@ -44,14 +43,14 @@ const ScoreBoard: FunctionComponent = () => {
           </div>
         </div>
         <div className="absolute top-[272px] left-[64px] w-[1211px] h-[697px]">
-          <ContainerFrame1 />
-          <ContainerFrame2 />
-          <PlayerCardForm />
-          <ContainerFrame />
-          <ContainerSection />
-          <ContainerBox />
-          <ContainerWrapper />
-          <ContainerGroup />
+          <LeaderBoardEightRow />
+          <LeaderBoardSixRow />
+          <LeaderBoardHeader />
+          <LeaderBoardFirstRow />
+          <LeaderBoardSecondRow />
+          <LeaderBoardThirdRow />
+          <LeaderBoardFourRow />
+          <LeaderBoardFiveRow />
         </div>
         <div className="absolute top-[345px] left-[calc(50%_+_439px)] w-[101px] h-[54.7px] text-center font-lato">
           <div className="absolute top-[0px] left-[calc(50%_-_50.5px)] w-[101px] h-[54.7px]">
@@ -538,7 +537,7 @@ const ScoreBoard: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[2976px] left-[45px] w-[1350px] h-[1470px] text-17xl text-darkslateblue-300">
+      <div className="absolute top-[2976px] left-[105px] w-[1350px] h-[1470px] text-17xl text-darkslateblue-300">
         <div className="absolute top-[785px] left-[120px] w-[1350px] h-[685px]">
           <div className="absolute top-[0px] left-[0px] w-[596px] h-[103px]">
             <div className="absolute top-[0px] left-[0px] w-[596px] h-[103px]">
@@ -1754,8 +1753,9 @@ const ScoreBoard: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <SectionCard />
-      <GroupComponent7 />
+      <LeaderBoardScoringTab />
+      <IndiviualPlayerScore />
+     
     </div>
   );
 };

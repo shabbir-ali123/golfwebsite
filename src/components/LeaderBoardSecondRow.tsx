@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-const ContainerSection: FunctionComponent = () => {
+const LeaderBoardSecondRow: FunctionComponent = () => {
   return (
     <div className="absolute top-[153px] left-[0px] w-[1206px] h-16 text-left text-lg text-darkslategray-100 font-poppins">
       <div className="absolute top-[0px] left-[0px] bg-lightcyan shadow-[3px_4px_14px_#9aacfd] w-[1206px] h-16" />
@@ -51,4 +51,4 @@ const ContainerSection: FunctionComponent = () => {
   );
 };
 
-export default ContainerSection;
+export default LeaderBoardSecondRow;
