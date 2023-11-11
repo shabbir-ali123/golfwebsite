@@ -80,13 +80,13 @@ const Slider: FunctionComponent = () => {
                     </b>
                   </div>
                 </div>
-                <b className="absolute top-[119px] left-[51px] tracking-[-0.17px] leading-[18px] text-gray1-200">
+                <b className="absolute top-[119px] left-[61px] tracking-[-0.17px] leading-[18px] text-gray1-200">
                   Driver: {currentSlideData.driver}
                 </b>
-                <b className="absolute top-[159px] left-[51px] tracking-[-0.17px] leading-[18px] text-gray1-200">
+                <b className="absolute top-[159px] left-[61px] tracking-[-0.17px] leading-[18px] text-gray1-200">
                   Drivers: {currentSlideData.Drivers}
                 </b>
-                <div className="absolute top-[202.2px] left-[50.4px] ">
+                <div className="absolute top-[202.2px] left-[60.4px] ">
                   <b className="absolute top-[5.4px] left-[0px]  leading-[12.2px] inline-block ">
                     Name:
                   </b>
@@ -99,10 +99,10 @@ const Slider: FunctionComponent = () => {
                     src={currentSlideData.image}
                   />
                 </div>
-                <div className="absolute top-[276.2px] left-[29px] w-[140.3px] h-[33.9px] text-darkslategray-500">
+                <div className="absolute top-[276.2px] left-[59px] w-[140.3px] h-[33.9px] text-darkslategray-500">
                   <div className="absolute top-[0px] left-[0px] w-[140.3px] h-[33.9px]">
                     <div className="absolute top-[0px] left-[0px] w-[140.3px] h-[33.9px]">
-                      <b className="absolute top-[10.8px] left-[0px]  leading-[12.2px] inline-block w-[87.6px]">
+                      <b className="absolute top-[15.8px] left-[0px]  leading-[12.2px] inline-block w-[87.6px]">
                         TotalPar:
                       </b>
                       <div className="absolute top-[0px] left-[102.5px] w-[37.8px] h-[33.9px] text-[27.11px] text-white">
@@ -327,7 +327,7 @@ const Slider: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="absolute top-[100.9px] left-[78px] w-[231px] h-[124.9px] text-[7.89px] text-white font-body-b2">
+            <div className="absolute top-[100.9px] left-[98px] w-[231px] h-[124.9px] text-[7.89px] text-white font-body-b2">
               <div className="absolute top-[189.1px] left-[201px] w-[140.3px] h-[33.9px] text-darkslategray-500">
                 <div className="absolute top-[10.8px] left-[0px] w-[91.6px] h-[13px]">
                   <b className=" text-xl absolute top-[10px] left-[0px]  leading-[12.2px] inline-block w-[101.6px]">

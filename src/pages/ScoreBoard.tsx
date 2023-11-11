@@ -17,12 +17,6 @@ import IndiviualPlayerScore from "../components/IndiviualPlayerScore";
 const ScoreBoard: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[5418px] overflow-hidden text-left text-[1.97px] text-darkslategray-200 font-poppins">
-     
-     <img
-        className="absolute top-[736px] left-[786px] w-[69px] h-[15px]"
-        alt=""
-        src="/img/group-1000008788.svg"
-      />
       <ChampionShipName />
       <Slider />
       <div className="absolute top-[848px] left-[calc(50%_-_675px)] w-[1350px] h-[1095px]">

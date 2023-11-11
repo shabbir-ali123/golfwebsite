@@ -1,9 +1,9 @@
 import { FunctionComponent } from "react";
-import LiveScoreContainer1 from "../components/LiveScoreHeader";
-import LiveScoreContainer from "../components/LiveScoreHoles";
+import LiveScoreHeader from "../components/LiveScoreHeader";
+import LiveScoreHoles from "../components/LiveScoreHoles";
 import SectionCard1 from "../components/LiveScoreTeam1";
 import SectionCard5 from "../components/SectionCard5";
-import SectionCard3 from "../components/LiveScoreTeams";
+import LiveScoreTeams from "../components/LiveScoreTeams";
 import SectionCard6 from "../components/SectionCard6";
 
 const OngoingEvent: FunctionComponent = () => {
@@ -67,8 +67,8 @@ const OngoingEvent: FunctionComponent = () => {
               <div className="absolute top-[428px] left-[16px] bg-whitesmoke-100 shadow-[0px_4px_19px_rgba(0,_0,_0,_0.25)] w-[193px] h-[459px]" />
             </div>
           </div>
-          <LiveScoreContainer1 />
-          <LiveScoreContainer />
+          <LiveScoreHeader />
+          <LiveScoreHoles />
           <div className="absolute top-[272px] left-[1212px] leading-[20px] font-medium">
             RESULT
           </div>
@@ -130,13 +130,13 @@ const OngoingEvent: FunctionComponent = () => {
           propLeft="119px"
         />
         <SectionCard5 />
-        <SectionCard3
+        <LiveScoreTeams
           score="23 "
           playerAge="27"
           gameName="Hole-in-Won"
           imageId="/ellipse-23087@2x.png"
         />
-        <SectionCard3
+        <LiveScoreTeams
           score="22"
           playerAge="28"
           gameName="Tee-rific Titan"

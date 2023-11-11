@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 const FullScoreCard: FunctionComponent = () => {
   return (
-    <div className="w-[480px] h-[348.2px] text-left text-[14.82px] text-black font-body-b2">
+    <div className="w-[480px] h-[348.2px] text-left text-[14.82px] text-black font-body-b2 [transform:_rotate(0deg)] [transform-origin:0_0]">
       <div className="absolute top-[80px] left-[-1px] w-[480px] h-[348.2px]">
         <div className="absolute top-[0px] left-[0px] w-[480px] h-[348.2px]">
           <img
