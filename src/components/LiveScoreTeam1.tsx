@@ -58,7 +58,7 @@ const LiveScoreTeam1: FunctionComponent<LiveScoreTeam1Type> = ({
       className="absolute top-[179px] left-[0px] w-[1302px] h-[72px] text-left text-lg text-dimgray-100 font-poppins"
       style={groupDiv3Style}
     >
-       <Link className="no-underline text-white" to="/ongoing-team-score">
+       <Link className="no-underline text-white" to="/">
       <div className="absolute top-[0px] left-[0px] rounded bg-lightblue shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25)] w-[1302px] h-[72px]" />
      
       <div className="absolute top-[7px] left-[5px] w-[1269px] h-[58px]">
@@ -137,7 +137,7 @@ const LiveScoreTeam1: FunctionComponent<LiveScoreTeam1Type> = ({
           <img
             className="absolute top-[0px] left-[109px] rounded-[50%] w-[58px] h-[58px] object-cover"
             alt=""
-            src="/ellipse-23085@2x.png"
+            src="/img/ellipse-23085@2x.png"
             style={ellipseIconStyle}
           />
         </div>

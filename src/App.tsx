@@ -9,7 +9,7 @@ import {
 import ScoreBoard from "./pages/ScoreBoard";
 import OngoingIndiviualScore from "./pages/OngoingIndiviualScore";
 import OngoingTeamScore from "./pages/OngoingTeamScore";
-import OngoingEvent from "./pages/OngoingEvent";
+import OngoingEvent from "./pages/LiveScoringTable";
 import EventMainPage from "./pages/EventMainPage";
 
 function App() {
@@ -66,13 +66,13 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ScoreBoard />} />
+      <Route path="/" element={<OngoingEvent />} />
       <Route
         path="/ongoing-indiviual-score"
         element={<OngoingIndiviualScore />}
       />
       <Route path="/ongoing-team-score" element={<OngoingTeamScore />} />
-      <Route path="/ongoing-event" element={<OngoingEvent />} />
+      <Route path="/score-board" element={<ScoreBoard />} />
       <Route path="/event-main-page" element={<EventMainPage />} />
     </Routes>
   );

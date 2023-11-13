@@ -1,66 +1,17 @@
 import { FunctionComponent } from "react";
 import LiveScoreHeader from "../components/LiveScoreHeader";
-import LiveScoreHoles from "../components/LiveScoreHoles";
-import SectionCard1 from "../components/LiveScoreTeam1";
-import SectionCard5 from "../components/SectionCard5";
+import LiveScoreHoles from "../components/LiveScoreOut";
+import LiveScoreTeam1 from "../components/LiveScoreTeam1";
 import LiveScoreTeams from "../components/LiveScoreTeams";
-import SectionCard6 from "../components/SectionCard6";
+import LiveScoringThirdRow from "../components/LiveScoringThirdRow";
+import LiveScoringLastRow from "../components/LiveScoringLastRow";
+import ChampionShipName from "../components/ChampionShipName";
 
-const OngoingEvent: FunctionComponent = () => {
+const LiveScoringTable: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[1586px] overflow-hidden text-left text-lg text-white font-poppins">
-      <div className="absolute top-[38px] left-[calc(50%_-_620px)] w-[1241px] h-[234px] text-xl text-darkslategray-300 font-body-b2">
-        <div className="absolute top-[63px] left-[calc(50%_-_620.5px)] w-[1210px] h-[171px]">
-          <div className="absolute top-[0px] left-[calc(50%_-_605px)] w-[1210px] h-[171px]">
-            <div className="absolute top-[0px] left-[calc(50%_-_605px)] bg-white shadow-[0px_0px_13px_rgba(0,_0,_0,_0.25)] w-[1210px] h-[171px]" />
-          </div>
-          <img
-            className="absolute top-[24px] left-[59px] rounded-[50%] w-[123px] h-[123px] object-cover"
-            alt=""
-            src="/ellipse-9@2x.png"
-          />
-          <img
-            className="absolute h-[14.04%] w-[1.86%] top-[70.76%] right-[77.98%] bottom-[15.2%] left-[20.17%] max-w-full overflow-hidden max-h-full"
-            alt=""
-            src="/group-1000008655.svg"
-          />
-          <div className="absolute top-[124px] left-[276px] tracking-[-0.17px] leading-[18px]">
-            10,OCT ,2023
-          </div>
-          <div className="absolute top-[29px] left-[240px] w-[870px] h-[81px] text-21xl text-black">
-            <div className="absolute top-[48px] left-[0px] tracking-[-0.17px] leading-[18px] font-semibold">
-              ZOZO CHAMPIONSHIP
-            </div>
-            <div className="absolute top-[0px] left-[0px] w-[115px] h-[29px] text-3xl text-white">
-              <div className="absolute top-[0px] left-[0px] rounded-8xs bg-seagreen-200 w-[115px] h-[29px]" />
-              <div className="absolute top-[6px] left-[9px] tracking-[-0.17px] leading-[18px]">
-                OFFICIAL
-              </div>
-            </div>
-            <div className="absolute h-[59.26%] w-[30.11%] top-[40.74%] right-[0%] bottom-[0%] left-[69.89%] text-5xl text-darkgray-400">
-              <img
-                className="absolute h-[58.13%] w-[8.78%] top-[20.83%] right-[91.22%] bottom-[21.04%] left-[0%] max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/group-1000008649.svg"
-              />
-              <div className="absolute top-[0px] left-[34px] w-[228px] h-12">
-                <div className="absolute top-[0px] left-[0px] tracking-[-0.17px] leading-[18px]">
-                  Hiroshima , Japan
-                </div>
-                <div className="absolute top-[30px] left-[0px] text-xl tracking-[-0.17px] leading-[18px] text-lightseagreen-200">
-                  Cypress Lakes Golf Club
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          className="absolute h-[99.36%] w-[12.81%] top-[0%] right-[0%] bottom-[0.64%] left-[87.19%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/group.svg"
-        />
-      </div>
-      <div className="absolute top-[350px] left-[151px] w-[1339px] h-[1053px]">
+     <ChampionShipName/>
+      <div className="absolute top-[350px] left-[230px] w-[1339px] h-[1053px]">
         <div className="absolute top-[0px] left-[0px] w-[1339px] h-[1053px]">
           <div className="absolute top-[0px] left-[0px] w-[1339px] h-[1053px]">
             <div className="absolute top-[0px] left-[0px] [background:linear-gradient(180deg,_#edfffd,_#f2fffa)] w-[1339px] h-[1053px] overflow-hidden">
@@ -120,7 +71,7 @@ const OngoingEvent: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <SectionCard1
+        <LiveScoreTeam1
           carNumber="22 "
           ellipseIconTop="429px"
           ellipseIconLeft="16px"
@@ -129,30 +80,31 @@ const OngoingEvent: FunctionComponent = () => {
           propWidth2="149px"
           propLeft="119px"
         />
-        <SectionCard5 />
+        
         <LiveScoreTeams
           score="23 "
           playerAge="27"
           gameName="Hole-in-Won"
-          imageId="/ellipse-23087@2x.png"
+          imageId="/img/ellipse-23087@2x.png"
         />
         <LiveScoreTeams
           score="22"
           playerAge="28"
           gameName="Tee-rific Titan"
-          imageId="/ellipse-23088@2x.png"
+          imageId="/img/ellipse-23088@2x.png"
           propTop="717px"
           propBackgroundColor="#afffaf"
           propBackgroundColor1="#1d3d86"
         />
-        <SectionCard6 />
+        <LiveScoringThirdRow/>
+        <LiveScoringLastRow />
         <img
           className="absolute top-[430px] left-[207px] w-[974px] h-[455px]"
           alt=""
-          src="/group-1000009240.svg"
+          src="/img/group-1000009240.svg"
         />
       </div>
-      <div className="absolute top-[691px] left-[67px] w-[135px] h-16 text-5xl">
+      <div className="absolute top-[691px] left-[145px] w-[135px] h-16 text-5xl">
         <div className="absolute top-[0px] left-[100px] bg-fuchsia-200 shadow-[0px_0px_5px_#cf24eb] w-[135px] h-16" />
         <div className="absolute top-[22px] left-[127px] leading-[20px]">{`Teams `}</div>
       </div>
@@ -166,4 +118,4 @@ const OngoingEvent: FunctionComponent = () => {
   );
 };
 
-export default OngoingEvent;
+export default LiveScoringTable;

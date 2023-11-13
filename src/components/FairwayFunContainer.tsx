@@ -80,13 +80,13 @@ const FairwayFunContainer: FunctionComponent<FairwayFunContainerType> = ({
           <img
             className="absolute h-[24.1%] w-[66.46%] top-[8.97%] right-[17.07%] bottom-[66.92%] left-[16.46%] rounded-[1.56px] max-w-full overflow-hidden max-h-full"
             alt=""
-            src="/vector41.svg"
+            src="/img/vector41.svg"
           />
         </div>
         <img
           className="absolute top-[0px] left-[42.2px] w-[16.4px] h-[39px]"
           alt=""
-          src="/group-1000009295.svg"
+          src="/img/group-1000009295.svg"
         />
       </div>
       <div className="absolute top-[19.5px] left-[661.2px] leading-[15.62px] inline-block w-[163.2px]">

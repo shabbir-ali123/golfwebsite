@@ -8,7 +8,7 @@ const EventLocation: FunctionComponent = () => {
           <img
             className="absolute top-[0px] left-[0px] w-[57px] h-[103px] object-cover"
             alt=""
-            src="/rectangle-1248@2x.png"
+            src="/img/rectangle-1248@2x.png"
           />
           <b className="absolute top-[58px] left-[58px] uppercase [text-shadow:0px_7px_4px_#ccf2fe]">{`EVENTS  IN `}</b>
         </div>
@@ -20,7 +20,7 @@ const EventLocation: FunctionComponent = () => {
         <img
           className="absolute h-[15.63%] w-[5.1%] top-[14.06%] right-[4.59%] bottom-[70.31%] left-[90.31%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/vector71.svg"
+          src="/img/vector71.svg"
         />
       </div>
       <div className="absolute top-[63px] left-[329px] w-[98px] h-8">
@@ -30,7 +30,7 @@ const EventLocation: FunctionComponent = () => {
         <img
           className="absolute h-[15.63%] w-[5.1%] top-[14.06%] right-[4.59%] bottom-[70.31%] left-[90.31%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/vector71.svg"
+          src="/img/vector71.svg"
         />
       </div>
     </div>

@@ -21,7 +21,7 @@ const EventMainPage: FunctionComponent = () => {
             <img
               className="absolute h-[61.67%] w-[11.59%] top-[18.33%] right-[88.73%] bottom-[20%] left-[-0.31%] max-w-full overflow-hidden max-h-full"
               alt=""
-              src="/group-1000009279.svg"
+              src="/img/group-1000009279.svg"
             />
           </div>
         </div>
@@ -93,12 +93,12 @@ const EventMainPage: FunctionComponent = () => {
         <img
           className="absolute top-[-8px] left-[-8px] rounded-10xs w-[324px] h-[615px] object-cover"
           alt=""
-          src="/rectangle-6126@2x.png"
+          src="/img/rectangle-6126@2x.png"
         />
         <img
           className="absolute top-[467px] left-[210.4px] w-[58px] h-[123px]"
           alt=""
-          src="/group-1000009359.svg"
+          src="/img/group-1000009359.svg"
         />
         <div className="absolute top-[363px] left-[105px]">Yokohama Club</div>
       </div>
@@ -142,19 +142,19 @@ const EventMainPage: FunctionComponent = () => {
       <img
         className="absolute h-[1.19%] w-[1.77%] top-[15.73%] right-[96.53%] bottom-[83.08%] left-[1.7%] max-w-full overflow-hidden max-h-full"
         alt=""
-        src="/vector61.svg"
+        src="/img/vector61.svg"
       />
       <EventLocation />
       <img
         className="absolute h-[4.3%] w-[2.92%] top-[66.79%] right-[12.29%] bottom-[28.92%] left-[84.79%] max-w-full overflow-hidden max-h-full"
         alt=""
-        src="/group-1000009400.svg"
+        src="/img/group-1000009400.svg"
       />
       <Header />
       <img
         className="absolute top-[0px] left-[0px] w-20 h-[1246px]"
         alt=""
-        src="/sidemenuicons.svg"
+        src="/img/sidemenuicons.svg"
       />
     </div>
   );

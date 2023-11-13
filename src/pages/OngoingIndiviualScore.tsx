@@ -1,63 +1,15 @@
 import { FunctionComponent } from "react";
-import SectionCard4 from "../components/SectionCard4";
+import SectionCard4 from "../components/LiveScoringHole";
 import SectionCardFormFilter from "../components/SectionCardFormFilter";
 import SectionCard2 from "../components/SectionCard2";
 import FriendSection from "../components/FriendSection";
+import { Link } from "react-router-dom";
+import ChampionShipName from "../components/ChampionShipName";
 
 const OngoingIndiviualScore: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[1901px] overflow-hidden text-left text-lg text-white font-poppins">
-      <div className="absolute top-[38px] left-[calc(50%_-_669px)] w-[1370px] h-[234px] text-xl text-darkslategray-300 font-body-b2">
-        <div className="absolute top-[63px] left-[calc(50%_-_685px)] w-[1339px] h-[171px]">
-          <div className="absolute top-[0px] left-[calc(50%_-_669.5px)] w-[1339px] h-[171px]">
-            <div className="absolute top-[0px] left-[calc(50%_-_669.5px)] bg-white shadow-[0px_0px_13px_rgba(0,_0,_0,_0.25)] w-[1339px] h-[171px]" />
-          </div>
-          <img
-            className="absolute top-[24px] left-[108px] rounded-[50%] w-[123px] h-[123px] object-cover"
-            alt=""
-            src="/ellipse-9@2x.png"
-          />
-          <img
-            className="absolute h-[14.04%] w-[1.68%] top-[70.76%] right-[76.44%] bottom-[15.2%] left-[21.88%] max-w-full overflow-hidden max-h-full"
-            alt=""
-            src="/group-1000008655.svg"
-          />
-          <div className="absolute top-[124px] left-[325px] tracking-[-0.17px] leading-[18px]">
-            10,OCT ,2023
-          </div>
-          <div className="absolute top-[29px] left-[289px] w-[870px] h-[81px] text-21xl text-black">
-            <div className="absolute top-[48px] left-[0px] tracking-[-0.17px] leading-[18px] font-semibold">
-              ZOZO CHAMPIONSHIP
-            </div>
-            <div className="absolute top-[0px] left-[0px] w-[115px] h-[29px] text-3xl text-white">
-              <div className="absolute top-[0px] left-[0px] rounded-8xs bg-seagreen-200 w-[115px] h-[29px]" />
-              <div className="absolute top-[6px] left-[9px] tracking-[-0.17px] leading-[18px]">
-                OFFICIAL
-              </div>
-            </div>
-            <div className="absolute h-[59.26%] w-[30.11%] top-[40.74%] right-[0%] bottom-[0%] left-[69.89%] text-5xl text-darkgray-400">
-              <img
-                className="absolute h-[58.13%] w-[8.78%] top-[20.83%] right-[91.22%] bottom-[21.04%] left-[0%] max-w-full overflow-hidden max-h-full"
-                alt=""
-                src="/group-1000008649.svg"
-              />
-              <div className="absolute top-[0px] left-[34px] w-[228px] h-12">
-                <div className="absolute top-[0px] left-[0px] tracking-[-0.17px] leading-[18px]">
-                  Hiroshima , Japan
-                </div>
-                <div className="absolute top-[30px] left-[0px] text-xl tracking-[-0.17px] leading-[18px] text-lightseagreen-200">
-                  Cypress Lakes Golf Club
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          className="absolute h-[99.36%] w-[11.61%] top-[0%] right-[0%] bottom-[0.64%] left-[88.39%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/group.svg"
-        />
-      </div>
+     <ChampionShipName/>
       <div className="absolute top-[calc(50%_-_625.5px)] left-[calc(50%_-_669px)] w-[1339px] h-[1493px] text-13xl text-gray1-1800">
         <div className="absolute top-[calc(50%_-_746.5px)] left-[calc(50%_-_669.5px)] w-[1339px] h-[1493px]">
           <div className="absolute top-[calc(50%_-_746.5px)] left-[calc(50%_-_669.5px)] w-[1339px] h-[1493px]">
@@ -70,7 +22,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
             <img
               className="absolute top-[0px] left-[0px] w-[90px] h-24 object-cover"
               alt=""
-              src="/rectangle-1271@2x.png"
+              src="/img/rectangle-1271@2x.png"
             />
             <div className="absolute top-[159px] left-[0px] w-[1302px] h-[801px] text-lg text-white">
               <div className="absolute top-[0px] left-[0px] w-[1302px] h-[801px] text-5xl text-darkslategray-100">
@@ -78,7 +30,10 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                   <div className="absolute top-[0px] left-[0px] w-[239px] h-[55px]">
                     <div className="absolute top-[0px] left-[0px] rounded bg-whitesmoke-200 w-[239px] h-[55px]" />
                     <div className="absolute top-[18px] left-[54px] leading-[20px]">
+                      <Link className="no-underline text-darkslategray-100" to="/ongoing-team-score">
                       Team View
+                      </Link>
+                      
                     </div>
                   </div>
                   <div className="absolute top-[0px] left-[254px] w-[239px] h-[55px] text-white">
@@ -173,7 +128,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                         <img
                           className="absolute top-[0px] left-[109px] rounded-[50%] w-[58px] h-[58px] object-cover"
                           alt=""
-                          src="/ellipse-2308@2x.png"
+                          src="/img/ellipse-2308@2x.png"
                         />
                       </div>
                     </div>
@@ -279,16 +234,16 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                         </div>
                         <SectionCardFormFilter
                           personName="Shawn"
-                          imageDimensions="/ellipse-2308@2x.png"
+                          imageDimensions="/img/ellipse-2308@2x.png"
                         />
                         <SectionCard2
                           personName="Cameron"
-                          profileImageId="/ellipse-23081@2x.png"
+                          profileImageId="/img/ellipse-23081@2x.png"
                           rating="10"
                         />
                         <SectionCard2
                           personName="Leslie"
-                          profileImageId="/ellipse-23082@2x.png"
+                          profileImageId="/img/ellipse-23082@2x.png"
                           rating="9"
                           propTop="371px"
                           propBackgroundColor="#ffd98c"
@@ -300,14 +255,14 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                         />
                         <SectionCardFormFilter
                           personName="Soham"
-                          imageDimensions="/ellipse-23083@2x.png"
+                          imageDimensions="/img/ellipse-23083@2x.png"
                           propTop="467px"
                           propBackgroundColor="#b8e4fd"
                           propBackgroundColor1="#c00002"
                         />
                         <SectionCard2
                           personName="Eduardo"
-                          profileImageId="/ellipse-23084@2x.png"
+                          profileImageId="/img/ellipse-23084@2x.png"
                           rating="6"
                           propTop="563px"
                           propBackgroundColor="#cdd5ff"

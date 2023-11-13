@@ -62,7 +62,7 @@ const EventFirstRow: FunctionComponent<EventFirstRowType> = ({
               <img
                 className="absolute h-[33.43%] w-[64.02%] top-[0%] right-[17.07%] bottom-[66.57%] left-[18.9%] rounded-[1.56px] max-w-full overflow-hidden max-h-full"
                 alt=""
-                src="/vector31.svg"
+                src="/img/vector31.svg"
               />
               <div className="absolute top-[16px] left-[-0.4px] box-border w-[17.2px] h-[0.8px] border-t-[0.8px] border-solid border-white" />
               <div className="absolute top-[18.7px] left-[1.6px] capitalize">
@@ -84,13 +84,13 @@ const EventFirstRow: FunctionComponent<EventFirstRowType> = ({
           <img
             className="absolute h-[24.1%] w-[66.46%] top-[8.97%] right-[17.07%] bottom-[66.92%] left-[16.46%] rounded-[1.56px] max-w-full overflow-hidden max-h-full"
             alt=""
-            src="/vector41.svg"
+            src="/img/vector41.svg"
           />
         </div>
         <img
           className="absolute top-[0px] left-[42.2px] w-[16.4px] h-[39px]"
           alt=""
-          src="/group-1000009295.svg"
+          src="/img/group-1000009295.svg"
         />
       </div>
       <div className="absolute top-[19.7px] left-[662px] leading-[15.62px] inline-block w-[163.2px]">
@@ -113,7 +113,7 @@ const EventFirstRow: FunctionComponent<EventFirstRowType> = ({
           <img
             className="absolute h-[63.89%] w-[6.26%] top-[18.33%] right-[94.12%] bottom-[17.78%] left-[-0.38%] max-w-full overflow-hidden max-h-full"
             alt=""
-            src="/group-1000009274.svg"
+            src="/img/group-1000009274.svg"
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import SectionCard1 from "./LiveScoreTeam1";
-import SectionCard4 from "./SectionCard4";
+import SectionCard4 from "./LiveScoringHole";
 import { Link, useNavigate } from "react-router-dom";
 const TeamScoreCardSection: FunctionComponent = () => {
   return (
@@ -11,7 +11,7 @@ const TeamScoreCardSection: FunctionComponent = () => {
       <img
         className="absolute top-[0px] left-[0px] w-[90px] h-24 object-cover"
         alt=""
-        src="/rectangle-1271@2x.png"
+        src="/img/rectangle-1271@2x.png"
       />
       <div className="absolute top-[159px] left-[0px] w-[1302px] h-[399px] text-lg text-white">
         <div className="absolute top-[0px] left-[0px] w-[1302px] h-[399px] text-5xl">
@@ -19,7 +19,9 @@ const TeamScoreCardSection: FunctionComponent = () => {
             <div className="absolute top-[0px] left-[0px] w-[239px] h-[55px]">
               <div className="absolute top-[0px] left-[0px] rounded bg-fuchsia-200 w-[239px] h-[55px]" />
               <div className="absolute top-[18px] left-[54px] leading-[20px]">
-                Team View
+              <Link className="no-underline text-white" to="/ongoing-team-score">
+                      Team View
+                      </Link>
               </div>
             </div>
             
@@ -27,8 +29,10 @@ const TeamScoreCardSection: FunctionComponent = () => {
               <div className="absolute top-[0px] left-[0px] rounded bg-whitesmoke-200 w-[239px] h-[55px]" />
               
               <div className="absolute top-[18px] left-[24px] leading-[20px]">
-             
-                Individual Score
+             <Link className="no-underline text-darkslategray-100" to="/ongoing-indiviual-score">
+             Individual Score
+            </Link>
+                
                 
               </div>
             </div>

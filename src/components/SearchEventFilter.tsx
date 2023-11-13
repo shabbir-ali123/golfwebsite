@@ -7,7 +7,7 @@ const SearchEventContainer: FunctionComponent = () => {
         <img
           className="absolute top-[0px] left-[0px] rounded w-[1140px] h-[55px]"
           alt=""
-          src="/rectangle-6104.svg"
+          src="/img/rectangle-6104.svg"
         />
         <div className="absolute top-[17px] left-[27px] w-[130px] h-5">
           <div className="absolute top-[0px] left-[0px] leading-[20px]">
@@ -23,13 +23,13 @@ const SearchEventContainer: FunctionComponent = () => {
         <img
           className="absolute h-[34.91%] w-[18.06%] top-[33.27%] right-[73.61%] bottom-[31.82%] left-[8.33%] max-w-full overflow-hidden max-h-full"
           alt=""
-          src="/group-1000009262.svg"
+          src="/img/group-1000009262.svg"
         />
       </div>
       <img
         className="absolute top-[0px] left-[1060px] w-20 h-[55px]"
         alt=""
-        src="/group-1000009338.svg"
+        src="/img/group-1000009338.svg"
       />
     </div>
   );

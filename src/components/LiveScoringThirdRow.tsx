@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-const SectionCard5: FunctionComponent = () => {
+const LiveScoringThirdRow: FunctionComponent = () => {
   return (
     <div className="absolute top-[525px] left-[16px] w-[1302px] h-[72px] text-left text-lg text-white font-poppins">
       <div className="absolute top-[0px] left-[0px] rounded bg-khaki-100 shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25)] w-[1302px] h-[72px]" />
@@ -88,11 +88,11 @@ const SectionCard5: FunctionComponent = () => {
         <img
           className="absolute top-[0px] left-[119px] rounded-[50%] w-[58px] h-[58px] object-cover"
           alt=""
-          src="/ellipse-23086@2x.png"
+          src="/img/ellipse-23086@2x.png"
         />
       </div>
     </div>
   );
 };
 
-export default SectionCard5;
+export default LiveScoringThirdRow;

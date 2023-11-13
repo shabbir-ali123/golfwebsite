@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-const SectionCard4: FunctionComponent = () => {
+const LiveScoringHole: FunctionComponent = () => {
   return (
     <div className="absolute top-[0px] left-[0px] w-[1302px] h-[154px] text-left text-lg text-white font-poppins">
       <div className="absolute top-[0px] left-[0px] w-[1302px] h-[154px]">
@@ -197,4 +197,4 @@ const SectionCard4: FunctionComponent = () => {
   );
 };
 
-export default SectionCard4;
+export default LiveScoringHole;

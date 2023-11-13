@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
-import SectionCard4 from "./SectionCard4";
+import LiveScoringHole from "./LiveScoringHole";
 
-const LiveScoreHoles: FunctionComponent = () => {
+const LiveScoreOut: FunctionComponent = () => {
   return (
     <div className="absolute top-[251px] left-[16px] w-[1302px] h-[154px] text-left text-base text-white font-poppins">
-      <SectionCard4 />
+      <LiveScoringHole />
       <div className="absolute top-[0px] left-[515px] w-[58px] h-[154px]">
         <div className="absolute top-[0px] left-[0px] w-[58px] h-[154px]">
           <div className="absolute top-[0px] left-[0px] bg-white w-[58px] h-[154px]" />
@@ -15,7 +15,7 @@ const LiveScoreHoles: FunctionComponent = () => {
             Out
           </div>
         </div>
-        <div className="absolute top-[91px] left-[1px] w-14 h-[62px] text-lg">
+        <div className="absolute top-[91px] left-[0px] w-14 h-[62px] text-lg">
           <div className="absolute top-[0px] left-[0px] bg-gray1-1300 w-14 h-[62px]" />
           <div className="absolute top-[21px] left-[17px] leading-[20px] font-medium">
             39
@@ -43,4 +43,4 @@ const LiveScoreHoles: FunctionComponent = () => {
   );
 };
 
-export default LiveScoreHoles;
+export default LiveScoreOut;
