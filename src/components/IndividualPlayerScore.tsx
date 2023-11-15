@@ -1,6 +1,6 @@
 import { FunctionComponent, useMemo, type CSSProperties } from "react";
 
-type SectionCard2Type = {
+type IndividualPlayerScoreType = {
   personName?: string;
   profileImageId?: string;
   rating?: string;
@@ -15,7 +15,7 @@ type SectionCard2Type = {
   propHeight?: CSSProperties["height"];
 };
 
-const SectionCard2: FunctionComponent<SectionCard2Type> = ({
+const IndividualPlayerScore: FunctionComponent<IndividualPlayerScoreType> = ({
   personName,
   profileImageId,
   rating,
@@ -179,4 +179,4 @@ const SectionCard2: FunctionComponent<SectionCard2Type> = ({
   );
 };
 
-export default SectionCard2;
+export default IndividualPlayerScore;

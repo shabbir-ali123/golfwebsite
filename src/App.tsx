@@ -36,7 +36,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/ongoing-team-score":
+      case "/score-board":
         title = "";
         metaDescription = "";
         break;
@@ -66,13 +66,13 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<OngoingEvent />} />
+      <Route path="/" element={< ScoreBoard />} index />
       <Route
         path="/ongoing-indiviual-score"
         element={<OngoingIndiviualScore />}
       />
+      <Route path="/ongoing-event" element={<OngoingEvent  />} />
       <Route path="/ongoing-team-score" element={<OngoingTeamScore />} />
-      <Route path="/score-board" element={<ScoreBoard />} />
       <Route path="/event-main-page" element={<EventMainPage />} />
     </Routes>
   );

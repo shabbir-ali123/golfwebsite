@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import TeamScoreCardSection from "../components/TeamScoreCardSection";
-import FriendSection from "../components/FriendSection";
+import FriendSection from "../components/SingleTeamName";
 import ChampionShipName from "../components/ChampionShipName";
 
 const OngoingTeamScore: FunctionComponent = () => {

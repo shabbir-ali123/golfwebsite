@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import SectionCard1 from "./LiveScoreTeam1";
-import SectionCard4 from "./LiveScoringHole";
+import LiveScoreTeam1 from "./LiveScoreTeam1";
+import LiveScoringHole from "./LiveScoringHole";
 import { Link, useNavigate } from "react-router-dom";
 const TeamScoreCardSection: FunctionComponent = () => {
   return (
@@ -19,26 +19,30 @@ const TeamScoreCardSection: FunctionComponent = () => {
             <div className="absolute top-[0px] left-[0px] w-[239px] h-[55px]">
               <div className="absolute top-[0px] left-[0px] rounded bg-fuchsia-200 w-[239px] h-[55px]" />
               <div className="absolute top-[18px] left-[54px] leading-[20px]">
-              <Link className="no-underline text-white" to="/ongoing-team-score">
-                      Team View
-                      </Link>
+                <Link
+                  className="no-underline text-white"
+                  to="/ongoing-team-score"
+                >
+                  Team View
+                </Link>
               </div>
             </div>
-            
+
             <div className="absolute top-[0px] left-[254px] w-[239px] h-[55px] text-darkslategray-100">
               <div className="absolute top-[0px] left-[0px] rounded bg-whitesmoke-200 w-[239px] h-[55px]" />
-              
+
               <div className="absolute top-[18px] left-[24px] leading-[20px]">
-             <Link className="no-underline text-darkslategray-100" to="/ongoing-indiviual-score">
-             Individual Score
-            </Link>
-                
-                
+                <Link
+                  className="no-underline text-darkslategray-100"
+                  to="/ongoing-indiviual-score"
+                >
+                  Individual Score
+                </Link>
               </div>
             </div>
           </div>
           <div className="absolute top-[86px] left-[0px] w-[1302px] h-[313px] text-lg text-dimgray-100">
-            <SectionCard1 carNumber="23 " />
+            <LiveScoreTeam1 carNumber="23 " />
             <div className="absolute top-[289px] left-[184px] w-[934px] h-6 text-black">
               <div className="absolute top-[0px] left-[0px] w-[87px] h-6">
                 <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
@@ -85,7 +89,7 @@ const TeamScoreCardSection: FunctionComponent = () => {
             </div>
             <div className="absolute top-[0px] left-[0px] w-[1302px] h-[251px] text-base text-white">
               <div className="absolute top-[0px] left-[0px] w-[1302px] h-[251px]">
-                <SectionCard4 />
+                <LiveScoringHole />
                 <div className="absolute top-[0px] left-[515px] w-[58px] h-[154px]">
                   <div className="absolute top-[0px] left-[0px] w-[58px] h-[154px]">
                     <div className="absolute top-[0px] left-[0px] bg-white w-[58px] h-[154px]" />

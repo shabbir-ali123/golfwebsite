@@ -1,8 +1,8 @@
 import { FunctionComponent } from "react";
-import SectionCard4 from "../components/LiveScoringHole";
+import LiveScoringHole from "../components/LiveScoringHole";
 import SectionCardFormFilter from "../components/SectionCardFormFilter";
-import SectionCard2 from "../components/SectionCard2";
-import FriendSection from "../components/FriendSection";
+import IndividualPlayerScore from "../components/IndividualPlayerScore";
+import FriendSection from "../components/SingleTeamName";
 import { Link } from "react-router-dom";
 import ChampionShipName from "../components/ChampionShipName";
 
@@ -30,7 +30,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                   <div className="absolute top-[0px] left-[0px] w-[239px] h-[55px]">
                     <div className="absolute top-[0px] left-[0px] rounded bg-whitesmoke-200 w-[239px] h-[55px]" />
                     <div className="absolute top-[18px] left-[54px] leading-[20px]">
-                      <Link className="no-underline text-darkslategray-100" to="/ongoing-team-score">
+                      <Link className="no-underline text-darkslategray-100" to="/">
                       Team View
                       </Link>
                       
@@ -179,7 +179,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                   </div>
                   <div className="absolute top-[0px] left-[0px] w-[1302px] h-[635px] text-base text-white">
                     <div className="absolute top-[0px] left-[0px] w-[1302px] h-[635px]">
-                      <SectionCard4 />
+                      <LiveScoringHole />
                       <div className="absolute top-[0px] left-[515px] w-[58px] h-[154px]">
                         <div className="absolute top-[0px] left-[0px] w-[58px] h-[154px]">
                           <div className="absolute top-[0px] left-[0px] bg-white w-[58px] h-[154px]" />
@@ -236,12 +236,12 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                           personName="Shawn"
                           imageDimensions="/img/ellipse-2308@2x.png"
                         />
-                        <SectionCard2
+                        <IndividualPlayerScore
                           personName="Cameron"
                           profileImageId="/img/ellipse-23081@2x.png"
                           rating="10"
                         />
-                        <SectionCard2
+                        <IndividualPlayerScore
                           personName="Leslie"
                           profileImageId="/img/ellipse-23082@2x.png"
                           rating="9"
@@ -260,7 +260,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                           propBackgroundColor="#b8e4fd"
                           propBackgroundColor1="#c00002"
                         />
-                        <SectionCard2
+                        <IndividualPlayerScore
                           personName="Eduardo"
                           profileImageId="/img/ellipse-23084@2x.png"
                           rating="6"
