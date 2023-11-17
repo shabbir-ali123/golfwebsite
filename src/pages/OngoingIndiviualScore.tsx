@@ -30,7 +30,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                   <div className="absolute top-[0px] left-[0px] w-[239px] h-[55px]">
                     <div className="absolute top-[0px] left-[0px] rounded bg-whitesmoke-200 w-[239px] h-[55px]" />
                     <div className="absolute top-[18px] left-[54px] leading-[20px]">
-                      <Link className="no-underline text-darkslategray-100" to="/">
+                      <Link className="no-underline text-darkslategray-100" to="/ongoing-team-score">
                       Team View
                       </Link>
                       
@@ -133,50 +133,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute top-[691px] left-[184px] w-[934px] h-6 text-black">
-                    <div className="absolute top-[0px] left-[0px] w-[87px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        Birdie
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-mediumseagreen-100 w-6 h-6" />
-                    </div>
-                    <div className="absolute top-[0px] left-[115px] w-[65px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        Par
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-lightseagreen-200 w-6 h-6" />
-                    </div>
-                    <div className="absolute top-[0px] left-[208px] w-[154px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        Double Eagle
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-darkslateblue-100 w-6 h-6" />
-                    </div>
-                    <div className="absolute top-[0px] left-[390px] w-[85px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        Eagle
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-deepskyblue-200 w-6 h-6" />
-                    </div>
-                    <div className="absolute top-[0px] left-[503px] w-[92px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        Bogey
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-goldenrod w-6 h-6" />
-                    </div>
-                    <div className="absolute top-[0px] left-[623px] w-[167px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        Double-Bogey
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-orangered w-6 h-6" />
-                    </div>
-                    <div className="absolute top-[0px] left-[818px] w-[116px] h-6">
-                      <div className="absolute top-[2px] left-[35px] leading-[20px] font-medium">
-                        3+Bogey
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] rounded-sm bg-sienna w-6 h-6" />
-                    </div>
-                  </div>
+                 
                   <div className="absolute top-[0px] left-[0px] w-[1302px] h-[635px] text-base text-white">
                     <div className="absolute top-[0px] left-[0px] w-[1302px] h-[635px]">
                       <LiveScoringHole />
@@ -287,7 +244,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                 RESULT
               </div>
               <div className="absolute top-[198px] left-[1196px] leading-[20px] font-medium">
-                WINNER
+               POSITION
               </div>
             </div>
           </div>
@@ -297,7 +254,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
         RESULT
       </div>
       <div className="absolute top-[2287px] left-[1248px] leading-[20px] font-medium">
-        WINNER
+       POSITION
       </div>
       <FriendSection />
     </div>

@@ -1,5 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import Calendar from "./Calender"
 const AllEventTabs: FunctionComponent = () => {
   const navigate = useNavigate();
   const onRectangle6Click = useCallback(() => {
@@ -32,6 +33,7 @@ const AllEventTabs: FunctionComponent = () => {
                 </div>
               </div>
               <div className="absolute top-[0px] left-[320px] w-28 h-[63px]">
+              
                 <div className="absolute top-[0px] left-[0px] rounded bg-white shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25)] w-28 h-[63px]" />
                 <div className="absolute top-[21px] left-[7px] leading-[20px]">
                  <Link className="no-underline text-lightseagreen-200" to="/"> UPCOMING </Link>
@@ -54,23 +56,7 @@ const AllEventTabs: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[4px] left-[843px] w-[415px] h-[63px]">
-        <div
-          className="absolute top-[0px] left-[0px] rounded-10xs bg-white w-[415px] h-[63px] cursor-pointer"
-          onClick={onRectangle6Click}
-        />
-        <div className="absolute top-[21px] left-[16px] leading-[20px]">
-          Start Date
-        </div>
-        <div className="absolute top-[21px] left-[233px] leading-[20px]">
-          End Date
-        </div>
-        <img
-          className="absolute h-[31.75%] w-[4.82%]  top-[33.33%] right-[3.86%] bottom-[34.92%] left-[91.33%] max-w-full overflow-hidden max-h-full"
-          alt=""
-          src="/img/group-1000009273.svg"
-        />
-      </div>
+      <Calendar/>
     </div>
   );
 };

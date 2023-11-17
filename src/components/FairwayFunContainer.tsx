@@ -35,10 +35,10 @@ const FairwayFunContainer: FunctionComponent<FairwayFunContainerType> = ({
 
   return (
     <div
-      className="absolute top-[92.3px] left-[0.8px] w-[947.9px] h-[71.1px] text-left text-[15.62px] text-white font-poppins"
+      className="absolute top-[92.3px] left-[0.8px] w-[947.9px] h-[71.1px] text-left text-[15.62px]  font-poppins"
       style={groupDiv9Style}
     >
-      <div className="absolute top-[0px] left-[0px] rounded-[1.56px] bg-cornflowerblue shadow-[-3.9px_3.9px_3.12px_#0052fb] w-[947.9px] h-[71.1px]" />
+      <div className="absolute top-[0px] left-[0px] rounded-[1.56px] bg-[#3A66C0] shadow-[-3.9px_3.9px_3.12px_#0052fb] w-[947.9px] h-[71.1px] text-white" />
       <img
         className="absolute top-[14.1px] left-[39.8px] rounded-[50%] w-[42.2px] h-[42.2px] object-cover"
         alt=""

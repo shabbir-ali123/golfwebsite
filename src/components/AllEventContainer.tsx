@@ -4,7 +4,7 @@ import FairwayFunContainer from "./FairwayFunContainer";
 
 const AllEventContainer: FunctionComponent = () => {
   return (
-    <div className="absolute top-[69px] left-[0px] w-[948.7px] h-[531.9px] text-left text-[15.62px] text-darkslategray-600 font-poppins">
+    <div className="absolute top-[69px] left-[0px]   text-left text-[15.62px] text-white font-poppins">
       <EventFirstRow
         ellipse2311="/img/ellipse-2311@2x.png"
         golfMasters="GolfMasters"
@@ -16,14 +16,14 @@ const AllEventContainer: FunctionComponent = () => {
         activityImageUrl="Fairway Fun"
         eventDate="Nov 13, MON"
         championshipName="Japan Open CHAMPIONSHIP"
-        imageDimensionsText="/group-10000092741.svg"
+        imageDimensionsText="/img/group-10000092741.svg"
       />
       <FairwayFunContainer
         imageDimensions="/img/ellipse-23112@2x.png"
         activityImageUrl="GreenLinks"
         eventDate="Nov 13, TUE"
         championshipName="Japan Cup CHAMPIONSHIP"
-        imageDimensionsText="/group-10000092742.svg"
+        imageDimensionsText="/img/group-10000092742.svg"
         propTop="184.4px"
         propWidth="166px"
       />
@@ -35,19 +35,19 @@ const AllEventContainer: FunctionComponent = () => {
         groupDivTop="276.6px"
         propWidth="185px"
       />
-      <div className="absolute top-[368.7px] left-[0.8px] w-[947.9px] h-[71.1px] text-white">
+      <div className="absolute top-[368.7px] left-[0.8px] w-[947.9px] h-[71.1px] text-white bg-[#3A66C0]">
         <div className="absolute top-[0px] left-[0px] w-[947.9px] h-[71.1px]">
           <div className="absolute top-[0px] left-[0px] rounded-[1.56px] bg-cornflowerblue shadow-[-3.9px_3.9px_3.12px_#0052fb] w-[947.9px] h-[71.1px]" />
         </div>
         <img
           className="absolute top-[14.1px] left-[39.8px] rounded-[50%] w-[42.2px] h-[42.2px] object-cover"
           alt=""
-          src="/img/img/ellipse-23114@2x.png"
+          src="/img/ellipse-23114@2x.png"
         />
         <div className="absolute top-[23.4px] left-[92.1px] capitalize font-medium">
           SwingFest
         </div>
-        <div className="absolute top-[23.4px] left-[209.3px] leading-[150%] text-center">
+        <div className="absolute top-[23.4px] left-[209.3px] leading-[150%] text-center ">
           12:00 PM
         </div>
         <div className="absolute top-[15.6px] left-[851.1px] w-[58.6px] h-[39px] text-[10.93px]">
@@ -112,14 +112,14 @@ const AllEventContainer: FunctionComponent = () => {
         </div>
       </div>
       <div className="absolute top-[460.8px] left-[0px] w-[948.7px] h-[71.1px]">
-        <div className="absolute top-[0px] left-[0px] w-[948.7px] h-[71.1px]">
+        <div className="absolute top-[0px] left-[0px] w-[948.7px] h-[71.1px] text-darkslategray-700">
           <div className="absolute top-[0px] left-[0.8px] rounded-[1.56px] bg-lavender-300 shadow-[0px_0px_3.12px_#bcfff9] w-[947.9px] h-[71.1px]" />
           <img
             className="absolute top-[14.1px] left-[40.6px] rounded-[50%] w-[42.2px] h-[42.2px] object-cover"
             alt=""
             src="/img/ellipse-23115@2x.png"
           />
-          <div className="absolute top-[23.4px] left-[92.9px] capitalize font-medium text-darkslategray-700">
+          <div className="absolute top-[23.4px] left-[92.9px] capitalize font-medium ">
             GolfGather
           </div>
           <div className="absolute top-[0px] left-[0px] w-[23.4px] h-[71.1px] text-white">
