@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 const LeaderBoardHeader: FunctionComponent = () => {
   return (
-    <div className="absolute top-[0px] left-[0px] w-[1211px] h-[57px] text-left text-lg text-white font-poppins">
+    <div className="absolute  left-[0px] w-[1211px] h-[57px] text-left text-lg text-white font-poppins">
       <div className="absolute top-[0px] left-[0px] rounded-md bg-darkslategray-400 w-[1211px] h-[57px]" />
       <div className="absolute top-[12px] left-[23px] w-[1098px] h-9">
         <div className="absolute top-[7px] left-[0px] w-[47.8px] h-5 text-sm font-body-b2">

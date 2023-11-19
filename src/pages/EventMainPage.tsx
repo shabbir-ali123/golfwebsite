@@ -17,9 +17,6 @@ const EventMainPage: FunctionComponent = () => {
   };
   return (
     <div className="relative bg-white w-full h-[1245px] overflow-hidden text-left text-base text-white font-poppins">
-      <div className="absolute top-[2287px] left-[1248px] text-lg leading-[20px] font-medium">
-        WINNER
-      </div>
       <div className="absolute top-[315px] left-[1194px] w-[182px] h-[55px] text-xl">
         <div className="absolute top-[0px] left-[0px] w-[182px] h-[55px]">
           <div className="absolute top-[0px] left-[0px] rounded bg-deepskyblue-100 shadow-[6px_6px_10px_#bbe2ff] w-[182px] h-[55px]" />

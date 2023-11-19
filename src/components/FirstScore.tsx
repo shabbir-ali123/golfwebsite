@@ -17,6 +17,7 @@ interface FirstScoreProps {
   const FirstScore: FunctionComponent<FirstScoreProps> = ({ data }) => {
     const { teamName, score1, score2, score3,teamImage,rowBackgroundColor,teamBackgroundColor } = data;
   return (
+    
     <div className="flex flex-row items-center justify-center relative gap-[10px] text-left text-base text-white font-poppins">
       <div className="relative w-[1302px] h-[72px] z-[0]">
         <div className={`absolute top-[0px] left-[0px] rounded  shadow-[0px_0px_4px_rgba(0,_0,_0,_0.25)] w-[1302px] h-[72px]`} style={{ backgroundColor: rowBackgroundColor }} />

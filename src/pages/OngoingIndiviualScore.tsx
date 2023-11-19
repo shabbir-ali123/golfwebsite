@@ -244,7 +244,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
                 RESULT
               </div>
               <div className="absolute top-[198px] left-[1196px] leading-[20px] font-medium">
-               POSITION
+               
               </div>
             </div>
           </div>
@@ -254,7 +254,7 @@ const OngoingIndiviualScore: FunctionComponent = () => {
         RESULT
       </div>
       <div className="absolute top-[2287px] left-[1248px] leading-[20px] font-medium">
-       POSITION
+       
       </div>
       <FriendSection />
     </div>

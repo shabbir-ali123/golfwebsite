@@ -309,8 +309,8 @@ const OngoingTeamScore: FunctionComponent = () => {
         <div className="absolute top-[945px] left-[15px] w-[1302px] h-[458px] text-lg">
         <div className="absolute top-[0px] left-[0px] w-[1302px] h-[458px]">
           {rowData.map((data, index) => (
-            <div className="my-4"key={index}>
-              <FirstScore data={data}    rowBackgroundColor={data.rowBackgroundColor} teamBackgroundColor={data.teamBackgroundColor}/>
+            <div className="my-4" key={index}>
+              <FirstScore data={data} rowBackgroundColor={data.rowBackgroundColor} teamBackgroundColor={data.teamBackgroundColor}/>
             </div>
           ))}
         </div>
